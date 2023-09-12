@@ -1,3 +1,19 @@
-h1 {
-    color: blue;
+.available-building {
+    fill: rgba(0, 128, 0, 0);
+    &:hover {
+        stroke: green;
+        stroke-width: 4px;
+        fill: rgb(0 128 8 / 44%);
+        cursor: pointer;
+    }   
+}
+
+.unavailable-building {
+    fill: rgba(0, 128, 0, 0);
+    &:hover {
+        stroke: red;
+        stroke-width: 4px;
+        fill: rgb(255 0 0 / 36%);
+        cursor: pointer;
+    }
 }
