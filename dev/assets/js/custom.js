@@ -16,10 +16,16 @@ building.forEach(item => {
         apartmentsValue.innerHTML = dataApartmensNumber;
         descriptionValue.innerHTML = dataDescription;
     })
-    item.addEventListener('mouseout', function() {
-        adressValue.innerHTML = '';
-        floorsValue.innerHTML = '';
-        apartmentsValue.innerHTML = '';
-        descriptionValue.innerHTML = 'We will gladly describe our buildings.';
-    })
+
+    // *An option where, upon removing the mouse from the building, 
+    // the descriptions in the fields of the buildings will revert 
+    // to their default state*
+
+    // item.addEventListener('mouseout', function() {
+        // adressValue.innerHTML = '';
+        // floorsValue.innerHTML = '';
+        // apartmentsValue.innerHTML = '';
+        // descriptionValue.innerHTML = 'We will gladly describe our buildings.';
+    // })
+    
 });
