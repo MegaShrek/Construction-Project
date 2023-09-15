@@ -1,16 +1,28 @@
 header{
 	padding: 15px 0;
-	// background: #fff;
-	a {
-		color: #222;;
-	}
+	
 	.container {
 		position: relative;
-		.logo {
+		& a {
+			color: #222;
+		}
+		& .logo {
 			position: absolute;
 			max-width: 120px;
 			top: -1px;
     		left: 33px;
+		}
+		& .dropdown-button {
+			min-height: auto;
+			padding: 0.7rem 2rem;
+			text-align: center;
+			color: #222;
+			border-radius: 1rem;
+			font-size: 16px;
+			font-family: Jeju Gothic,sans-serif;
+			&:hover {
+				box-shadow: inset 3px 3px 5px silver,inset -3px -3px 5px #fff!important;
+			}
 		}
 	}
 }

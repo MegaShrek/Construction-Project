@@ -20,6 +20,6 @@ building.forEach(item => {
         adressValue.innerHTML = '';
         floorsValue.innerHTML = '';
         apartmentsValue.innerHTML = '';
-        descriptionValue.innerHTML = '';
+        descriptionValue.innerHTML = 'We will gladly describe our buildings.';
     })
 });
