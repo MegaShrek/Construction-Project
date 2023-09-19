@@ -15,3 +15,36 @@ body {
     padding: 20px;
 }
 
+// SVG
+.available-svg {
+    fill: rgba(0, 128, 0, 0);
+    &:hover {
+        stroke: green;
+        stroke-width: 4px;
+        fill: rgb(0 128 8 / 44%);
+        cursor: pointer;
+    }   
+}
+
+.unavailable-svg {
+    fill: rgba(0, 128, 0, 0);
+    &:hover {
+        stroke: red;
+        stroke-width: 4px;
+        fill: rgb(255 0 0 / 36%);
+        cursor: not-allowed;
+    }
+}
+
+.info-block {
+    padding-left: 20px;
+    min-width: 250px;
+    & .inset-neomo {
+        padding: 10px;
+    }
+
+    & .info-block__description {
+        max-width: 230px;
+        min-height: 18px;
+    }
+}
